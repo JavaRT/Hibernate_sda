@@ -10,5 +10,11 @@
         <property name="format_sql">false</property>
         <property name="use.sql_comments">true</property>
         <mapping class="com.examples.entity.Dog"/>
+        <mapping class="com.examples.entity.Wife"/>
+        <mapping class="com.examples.entity.Husband"/>
+        <mapping class="com.examples.entity.Client"/>
+        <mapping class="com.examples.entity.Book"/>
+        <mapping class="com.examples.entity.School"/>
+        <mapping class="com.examples.entity.Student"/>
     </session-factory>
 </hibernate-configuration>
