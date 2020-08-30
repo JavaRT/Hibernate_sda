@@ -27,7 +27,6 @@ public class Main11hql {
         List<String> resultsTwo = queryTwo.getResultList();
         resultsTwo.forEach(System.out::println);
 
-
         transaction.commit();
         session.close();
     }
